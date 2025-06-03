@@ -2,13 +2,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #b93b1c; /* fundo verde claro */
+    background-color: rgb(235, 11, 11); 
     color: #333;
   }
   
   header {
-    background-color: #b85c44;
-    color: white;
+    background-color: #855468;
+    color: hsl(0, 96%, 49%);
     text-align: center;
     padding: 2rem 1rem;
   }
@@ -18,13 +18,13 @@ body {
   }
   
   .banner {
-    background-color: #f1f8e9;
+    background-color: rgb(255, 218, 9);
     text-align: center;
     padding: 2rem 1rem;
   }
   
   .sobre {
-    background-color: #ffffff;
+    background-color: #855468;
     padding: 2rem;
   }
   
@@ -34,7 +34,7 @@ body {
   }
   
   .textos {
-    background-color: #e3f2fd;
+    background-color: #02111b;
     padding: 2rem;
   }
   
@@ -43,14 +43,14 @@ body {
     padding: 10px;
     margin-top: 0.5rem;
     margin-bottom: 0,5rem;
-    border: 1px solid #ccc;
+    border: 1px solid #030000;
     border-radius: 6px;
     resize: vertical;
   }
   
   img.imagem-exemplo {
     width: 50%;
-    max-width: 5px;
+    max-width: 500px;
     height: auto;
     border: 3px dashed #4CAF50;
     border-radius: 10px;
@@ -58,8 +58,8 @@ body {
   }
   
   footer {
-    background-color: #2e7d32;
-    color: white;
+    background-color: aqua;
+    color:black;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;

@@ -7,9 +7,14 @@
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-
   <header>
     <h1><center>Tradições do Campo para a Cidade</center></h1>
+    <!-- Botões de acessibilidade -->
+<div style="position: fixed; top: 10px; right: 10px; z-index: 1000;">
+  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" style="background-color: #ff3908; color: rgb(150, 141, 141); padding: 10px; margin-bottom: 5px; border: none; border-radius: 5px;">Subir</button>
+  <button onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });" style="background-color: #a82121; color: white; padding: 10px; border: none; border-radius: 5px;">Descer</button>
+</div>
+
     <p>Festa junina, arraiá, São João, fogueira. Conhecida de diversas formas dependendo da região e lugar, é uma festa tradicional brasileira. 
       Antigamente uma festa realizada mais no meio rural, e hoje em dia se tornou uma grande marca em todo país.</p>
       <p>Sua denominação e forma, dependem da região e de estado, como por exemplo no Paraná, é de costume ter quentão, uma bebida quente feita de vinho, devido 
@@ -17,9 +22,17 @@
         <p>Geralmente uma festa colorida, com bastante brincadeiras e comidas. uma festa tradicional e bem marcante, é difícil ouvir falar de festa junina e não pensar
           em bandeirolas, fogueira e danças típicas.</p> 
       </header>
-
+      <style>
+        body {
+          background-color: #f0f0f0; /* Cor de fundo */
+          background-image: url("IMG_20230624_222802.jpg"); /* Imagem de fundo */
+          background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+          background-repeat: no-repeat; /* Não repete a imagem */
+          background-position: center; /* Centraliza a imagem */
+        }
+      </style>
   <section class="banner">
-    <h2>O campo e a cidade nas tradições.</h2>
+    <h2><center>O campo e a cidade nas tradições.</center></h2>
     <p>A festa junina se adaptou aos dias de hoje, uma festa de origem no campo ou em termos informais "roça" com comidas, vestimentas e brincadeiras tradicionais.</p>
     <p>Em uma festa junina, é comum vermos comidas derivadas de milho, amendoim, melado. Que são produzidos pelo campo, e industrializados pela cidade,como a 
       pipoca, paçoquinha de amendoim, e a tão conhecida pinga, que antigamente era praticamente toda artesanal e hoje em sua maioria é inustrializada.
@@ -41,17 +54,22 @@
   </section>
 
   <section class="sobre">
-    <h2>Algumas brincadeiras.</h2>
+   <h2>Algumas brincadeiras.</h2>
     <p>Pescaria</p>
     <p>Boca do palhaço.</p>
     <p>Correio elegante.</p>
     <p>Argola.</p>
   </section>
 
-  <section class="galeria">
-    <h2>Galeria de Imagens</h2>
 
-<img src="IMG_20230624_222802.jpg" img>
+  <section class="galeria">
+   <center><h2>Galeria de Imagens</h2></center>
+
+<center><img src="IMG-20240808-WA0008.jpg" img></center>
+<center><img src="IMG-20240808-WA0002.jpg" img></center>
+<center><img src="IMG-20230710-WA0011.jpg" img></center>
+<center><img src="IMG-20230710-WA0009.jpg" img></center>
+<center><img src="IMG-20230710-WA0006.jpg" img></center>
   </section>
 
   <section class="textos">
